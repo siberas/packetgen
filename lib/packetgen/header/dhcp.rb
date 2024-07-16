@@ -50,7 +50,7 @@ module PacketGen
 
       # @!attribute magic
       #   @return [Integer]
-      define_field :magic, Types::Int32, default: 0x63825563
+      define_field :magic, Types::Int32, default: DHCP_MAGIC
       # @!attribute options
       #   @return [DHCP::Options]
       define_field :options, DHCP::Options

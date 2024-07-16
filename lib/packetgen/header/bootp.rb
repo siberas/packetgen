@@ -119,6 +119,11 @@ module PacketGen
       #   @return [String]
       define_field :file, Types::CString, static_length: 128
 
+      # @!attribute vend
+      #   Boot file name, null terminated string
+      #   @return [String]
+      define_field :vend, Types::CString, static_length: 64
+
       # @!attribute body
       #   @return [String]
       define_field :body, Types::String
