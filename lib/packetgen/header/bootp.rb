@@ -122,7 +122,7 @@ module PacketGen
       # @!attribute vend
       #   Boot file name, null terminated string
       #   @return [String]
-      define_field :vend, Types::CString, static_length: 64
+      # define_field :vend, Types::CString, static_length: 64
 
       # @!attribute body
       #   @return [String]
